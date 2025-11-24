@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(41, 39, 39);
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.elementoMenu:hover {
+    display: flex;
+    color: rgb(77, 77, 196);
+    transition: 0.5s;
+}
+
+.contenedorBoton {
+    text-align: center;
+}
+
+.botonCV {
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style:double;
+    padding: 0.5%;
+    border-radius: 40%;
+}
+
+.botonCV:hover {
+    background-color: rgb(77, 77, 196);
+    transition: 0.5s;
+}
+
+.seccion {
+    color: white;
+    background-color: rgb(27, 25, 25);
+    text-align: justify;
+    padding: 2%;
+    width: 50%;
+    border-radius: 5%;
+    margin: 5% auto; 
+    transition: transform 0.3s ease;
+}
+
+.seccion:hover {
+    /*transform: scale(1.02);*/
+    box-shadow: 0px 0px 20px rgb(77, 77, 196);
+    transition: 0.5s;
+}
+
+.containerTech {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;      /* 🔥 permite que las tarjetas bajen si no caben */
+    gap: 20px;            /* espacio entre tarjetas */
+    padding: 20px;
+}
+
+.techBadge {
+    background-color: rgb(41, 39, 39);
+    text-align: center;
+    align-items: center;
+    /*border: 2px solid white;*/
+    border-radius: 12px;
+
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    flex-shrink: 0;
+
+    transition: transform 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.techBadge:hover {
+    transform: scale(1.03);
+}
+
+.devicon-debian-plain {
+    font-size: 60px;
+}
+
+.devicon-java-plain-wordmark {
+    font-size: 70px;
+}
+
+.devicon-c-original {
+    font-size: 60px;
+}
+
+.devicon-git-plain {
+    font-size: 60px;
+}
+
+.devicon-ubuntu-plain-wordmark {
+    font-size: 100px;
+}

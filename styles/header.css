@@ -1,0 +1,45 @@
+header {
+  margin-top: 10%;
+  color: rgb(77, 77, 196);
+  text-align: center;
+}
+
+.aura {
+  position: relative;
+  color: rgb(253, 253, 253);
+  z-index: 1;
+}
+
+.aura::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgb(77, 77, 196), transparent 80%);
+
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.textoDinamicoHeader {
+    display: inline-block;
+}
+
+#typewriter {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 32px;
+  white-space: nowrap;
+  border-right: 3px solid white; 
+  width: fit-content;
+  animation: cursorBlink 0.7s infinite;
+}
+
+@keyframes cursorBlink {
+  0% { border-color: white; }
+  50% { border-color: transparent; }
+  100% { border-color: white; }
+}
