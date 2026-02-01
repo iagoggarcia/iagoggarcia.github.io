@@ -4,68 +4,89 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portfolio</title>
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/footer.css">
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
   <script src="scripts.js"></script>
 </head>
+
 <body>
   <header>
-    <h1 class="aura">Iago García Quintela</h1>
-    <p id = "typewriter" class = "textoDinamicoHeader" ></p>
+    <div class="banner-container">
+      <div class="left-banner">
+        <h1 class="name">IAGO GARCÍA</h1>
+      </div>
+      <div class="right-banner">
+        <ul>
+          <li>
+            <a href="https://github.com/iagoggarcia">
+            <img src="images/github.png" alt="Social media" class="click-header">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/iagogarcia.cg/">
+            <img src="images/logo-ig-instagram-icon-download-icons-12.png" alt="Social media" class="click-header">
+            </a>
+          </li>
+            <audio controls>
+                <source src="audio/Tim Duzit - Bush Girls.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+          </li>
+        </ul>
+      </div>
+    </div>
   </header>
 
-  <div class="contenedorBoton">
-    <a href="CV_Iago.pdf" download class = "botonCV">CV</a>
-  </div>
-  <nav>
-    <ul>
-        <li><a href="#sobreMi" class = "elementoMenu">Sobre mí</a></li>
-        <li><a href="#tecnologías" class = "elementoMenu">Tecnologías</a></li>
-        <li><a href="#habilidades" class = "elementoMenu">Habilidades</a></li>
-        <li><a href="#proyectos" class = "elementoMenu">Proyectos</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <div class="containerSection">
-      <div class="seccion" id="sobreMi">
-        <h2>Sobre mí</h2>
-        <p>Soy un estudiante de ingeniería informática que espera poder graduarse en el año 2028, cada vez más interesado por la programación y el mundo de la informática.
-          Pese a no tener experiencia laboral, he desarrollado proyectos prácticos en estos dos años de carrera que me han permitido coger soltura y aprender los
-          fundamentos principales de la programación. Tengo un especial interés por la programación y la creación de interfaces gráficas.
-        </p>
-      </div>
-
-      <div class="seccion" id="tecnologías">
-        <h2>Tecnologías</h2>
-        <div class="containerTech">
-          <a class="techBadge">
-            <i class="devicon-debian-plain"></i>
-          </a>
-          <a class="techBadge">
-            <i class="devicon-java-plain-wordmark"></i>
-          </a>
-          <a class="techBadge">
-            <i class="devicon-c-original"></i>
-          </a>
-          <a class="techBadge">
-            <i class="devicon-git-plain colored"></i>
-          </a>
-          <a class="techBadge">
-            <i class="devicon-ubuntu-plain-wordmark"></i>
-          </a>
+    <div class="left-aside-container">
+      <div class="articles-header">
+        <h2 class="articles-title">ABOUT ME</h2>
+        <div class="circles-container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
         </div>
       </div>
+      <div class="left-aside">
+        <p>Computer Engineering Student at USC. I am a 21-year-old Computer Engineering student at the
+          University of Santiago de Compostela (USC). Currently focused on building a strong technical
+          foundation and developing my first software projects. I am a fast learner, deeply curious about
+          technology, and eager to start my professional journey in the tech industry.
+        </p>
+      </div>
+    </div>
 
-      <div class="seccion" id="proyectos">
-        <h2>Proyectos</h2>
-        <ul>
-          <li>Monopoly – <a href="https://github.com/tu-usuario/proyecto2" target="_blank">Ver código</a></li>
-        </ul>
-      </div class="seccion" id="proyectos">
+    <div class="left-aside-container">
+      <div class="articles-header">
+        <h2 class="articles-title">TECH SKILLS</h2>
+        <div class="circles-container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      <div class="left-aside">
+        <div class="card"><img src="images/c.png" alt="c"></div>
+        <div class="card"><img src="images/java.png" alt="c"></div>
+        <div class="card"><img src="images/git.png" alt=""></div>
+        <div class="card"><img src="images/html.png" alt="c"></div>
+        <div class="card"><img src="images/css.png" alt="c"></div>
+      </div>
+    </div>
+
+    <div class="left-aside-container">
+      <div class="articles-header">
+        <h2 class="articles-title">Music</h2>
+        <div class="circles-container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      <div class="left-aside">
+        <h2>aquí irá el reproductor personalizado</h2>
+      </div>
     </div>
 
   </main>
