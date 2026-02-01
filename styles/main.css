@@ -1,13 +1,17 @@
 html {
-  /*cursor: url("/images/cursor.cur"), auto;*/ 
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 body {
-  background-size: 35px 35px;
+  background-size: 25px 25px;
   background-image:
   linear-gradient(to right, black 1px, transparent 1px),
   linear-gradient(to bottom, black 1px, transparent 1px);
+}
+
+main {
+  display: flex;
+  align-items: center;
 }
 
 .articles-header {
@@ -23,8 +27,8 @@ body {
 }
 
 .circle {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: white;
   border-radius: 50%;
 }
@@ -53,11 +57,12 @@ body {
 
 .articles-title {
     margin-left: 40px;
+    font-size: 20px;
 }
 
 .left-aside p {
   margin: 20px;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .card {
@@ -65,9 +70,9 @@ body {
   border: 1px;
   border-color: black;
   border-style: solid;
-  width: 12rem;
-  height: 8rem;
-  margin: 25px;
+  width: 6rem;
+  height: 4rem;
+  margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,4 +86,9 @@ body {
   transition: 0.3s;
   box-shadow: 5px 5px 0px black;
   transform: scale(1.05);
+}
+
+.medium-container {
+  background-color: black;
+  width: 30%;
 }

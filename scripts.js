@@ -1,12 +1,12 @@
-const texto = "Estudiante de ingeniería informática";
-var i = 0;
+const texto = "Computer Science student from Santiago de Compostela, Spain";
+let i = 0;
 
 function escribir() {
   if (i < texto.length) {
     document.getElementById("typewriter").textContent += texto.charAt(i);
     i++;
-    setTimeout(escribir, 120); // velocidad de escritura (ms)
+    setTimeout(escribir, 120); 
   }
 }
 
-window.onload = escribir; // empieza al cargar la página
+window.onload = escribir;
