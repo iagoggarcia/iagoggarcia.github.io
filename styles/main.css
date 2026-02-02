@@ -14,6 +14,7 @@ main {
   grid-template-columns: 1fr 2fr 1fr;
   column-gap: 50px;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .left-column {
@@ -53,7 +54,7 @@ main {
     flex-direction: column;
 }
 
-.left-aside {
+.aside {
     display: flex;
     width: auto;    
     background-color: white;
@@ -61,6 +62,7 @@ main {
     text-align: justify;
     justify-content: center;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .articles-title {
@@ -69,7 +71,7 @@ main {
     color: white;
 }
 
-.left-aside p {
+.aside p {
   margin: 20px;
   font-size: 15px;
 }
@@ -181,4 +183,9 @@ div img {
 .project-overlay img:hover {
   transform: scale(1.1);
   transition: 0.2s;
+}
+
+.right-column {
+  justify-self: start;
+  grid-column: 3;
 }
