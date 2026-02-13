@@ -59,7 +59,7 @@ header {
 
 .click-header {
     width: 40px;
-    margin: 15px;
+    padding: 10px;
 }
 
 .click-header:hover {

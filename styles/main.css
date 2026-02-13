@@ -189,3 +189,13 @@ div img {
   justify-self: start;
   grid-column: 3;
 }
+
+.ascii-art{
+  margin: 0;
+  white-space: pre;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.1;
+  overflow-x: auto;
+  color: #33FF33;
+}
