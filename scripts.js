@@ -1,4 +1,4 @@
-const texto = "Computer Science student from Santiago de Compostela, Spain";
+const texto = "Computer Engineering student from Santiago de Compostela, Spain";
 let i = 0;
 
 function escribir() {

@@ -1,13 +1,11 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: white;
-    grid-column: 1/-1;
-    padding: 1%;
-    margin-top: 20px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 7px 7px 0px black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  grid-column: 1 / -1;
+  padding: 14px;
+  margin-top: 20px;
+  border: 1px solid black;
+  box-shadow: 7px 7px 0px black;
 }
